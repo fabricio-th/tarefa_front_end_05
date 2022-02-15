@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
 import SignupForm from './SignupForm';
@@ -13,7 +12,7 @@ const App = () => {
     })
 
     const alternate = () => {
-        if(mode.label == "Modo Escuro")
+        if(mode.label === "Modo Escuro")
           setMode({
             label:"Modo Claro",
             btnClass: "",

@@ -1,14 +1,6 @@
 
-import React, { useState } from 'react';
-
 
 const SignupForm = (props) => {
-
-  //const [label, setLabel] = useState(props.label)
-
-  /*const click = () => {
-    setLabel(props.)    
-  }*/
 
   
   const click = () => {
